@@ -1,3 +1,2 @@
 #ShiuAnimation
-=============
-![alt tag](http://i.imgur.com/m3LCHXs.mp4) 
+![alt tag](https://dl.dropboxusercontent.com/u/81743100/ShiuSelect.gif) 

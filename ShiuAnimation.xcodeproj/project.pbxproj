@@ -9,10 +9,18 @@
 /* Begin PBXBuildFile section */
 		2E974C961E3205C000DACC82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E974C951E3205C000DACC82 /* main.m */; };
 		2E974C991E3205C000DACC82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E974C981E3205C000DACC82 /* AppDelegate.m */; };
-		2E974C9C1E3205C000DACC82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E974C9B1E3205C000DACC82 /* ViewController.m */; };
 		2E974C9F1E3205C000DACC82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E974C9D1E3205C000DACC82 /* Main.storyboard */; };
 		2E974CA11E3205C000DACC82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E974CA01E3205C000DACC82 /* Assets.xcassets */; };
 		2E974CA41E3205C000DACC82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E974CA21E3205C000DACC82 /* LaunchScreen.storyboard */; };
+		2EAF6BCB1E4C36EF00177B4F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAF6BC91E4C36EF00177B4F /* DetailViewController.m */; };
+		2EAF6BCC1E4C36EF00177B4F /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EAF6BCA1E4C36EF00177B4F /* DetailViewController.xib */; };
+		2EAF6BD41E4C379900177B4F /* UIView+Shiu.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAF6BD01E4C379900177B4F /* UIView+Shiu.m */; };
+		2EAF6BD51E4C379900177B4F /* BrowseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAF6BD31E4C379900177B4F /* BrowseAnimation.m */; };
+		2EAF6BE11E4C37AA00177B4F /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAF6BDA1E4C37AA00177B4F /* CollectionViewCell.m */; };
+		2EAF6BE21E4C37AA00177B4F /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EAF6BDB1E4C37AA00177B4F /* CollectionViewCell.xib */; };
+		2EAF6BE31E4C37AA00177B4F /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAF6BDD1E4C37AA00177B4F /* TableViewCell.m */; };
+		2EAF6BE41E4C37AA00177B4F /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EAF6BDE1E4C37AA00177B4F /* TableViewCell.xib */; };
+		2EAF6BE51E4C37AA00177B4F /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAF6BE01E4C37AA00177B4F /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +28,25 @@
 		2E974C951E3205C000DACC82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2E974C971E3205C000DACC82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2E974C981E3205C000DACC82 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2E974C9A1E3205C000DACC82 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2E974C9B1E3205C000DACC82 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2E974C9E1E3205C000DACC82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E974CA01E3205C000DACC82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E974CA31E3205C000DACC82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E974CA51E3205C000DACC82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EAF6BC81E4C36EF00177B4F /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		2EAF6BC91E4C36EF00177B4F /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		2EAF6BCA1E4C36EF00177B4F /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		2EAF6BCF1E4C379900177B4F /* UIView+Shiu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Shiu.h"; sourceTree = "<group>"; };
+		2EAF6BD01E4C379900177B4F /* UIView+Shiu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Shiu.m"; sourceTree = "<group>"; };
+		2EAF6BD21E4C379900177B4F /* BrowseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowseAnimation.h; sourceTree = "<group>"; };
+		2EAF6BD31E4C379900177B4F /* BrowseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowseAnimation.m; sourceTree = "<group>"; };
+		2EAF6BD91E4C37AA00177B4F /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		2EAF6BDA1E4C37AA00177B4F /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		2EAF6BDB1E4C37AA00177B4F /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		2EAF6BDC1E4C37AA00177B4F /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		2EAF6BDD1E4C37AA00177B4F /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		2EAF6BDE1E4C37AA00177B4F /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		2EAF6BDF1E4C37AA00177B4F /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		2EAF6BE01E4C37AA00177B4F /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +81,11 @@
 			children = (
 				2E974C971E3205C000DACC82 /* AppDelegate.h */,
 				2E974C981E3205C000DACC82 /* AppDelegate.m */,
-				2E974C9A1E3205C000DACC82 /* ViewController.h */,
-				2E974C9B1E3205C000DACC82 /* ViewController.m */,
-				2E974C9D1E3205C000DACC82 /* Main.storyboard */,
+				2EAF6BCD1E4C379900177B4F /* Common */,
+				2EAF6BD61E4C37AA00177B4F /* TableViewController */,
+				2EAF6BC71E4C36EF00177B4F /* DetailViewController */,
+				2EEA6B471E35D39300C34E41 /* Storyboard */,
 				2E974CA01E3205C000DACC82 /* Assets.xcassets */,
-				2E974CA21E3205C000DACC82 /* LaunchScreen.storyboard */,
 				2E974CA51E3205C000DACC82 /* Info.plist */,
 				2E974C941E3205C000DACC82 /* Supporting Files */,
 			);
@@ -77,6 +98,83 @@
 				2E974C951E3205C000DACC82 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2EAF6BC71E4C36EF00177B4F /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2EAF6BC81E4C36EF00177B4F /* DetailViewController.h */,
+				2EAF6BC91E4C36EF00177B4F /* DetailViewController.m */,
+				2EAF6BCA1E4C36EF00177B4F /* DetailViewController.xib */,
+			);
+			path = DetailViewController;
+			sourceTree = "<group>";
+		};
+		2EAF6BCD1E4C379900177B4F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2EAF6BCE1E4C379900177B4F /* Category */,
+				2EAF6BD11E4C379900177B4F /* Model */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2EAF6BCE1E4C379900177B4F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2EAF6BCF1E4C379900177B4F /* UIView+Shiu.h */,
+				2EAF6BD01E4C379900177B4F /* UIView+Shiu.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		2EAF6BD11E4C379900177B4F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2EAF6BD21E4C379900177B4F /* BrowseAnimation.h */,
+				2EAF6BD31E4C379900177B4F /* BrowseAnimation.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2EAF6BD61E4C37AA00177B4F /* TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2EAF6BD71E4C37AA00177B4F /* TableViewCell */,
+				2EAF6BDF1E4C37AA00177B4F /* TableViewController.h */,
+				2EAF6BE01E4C37AA00177B4F /* TableViewController.m */,
+			);
+			path = TableViewController;
+			sourceTree = "<group>";
+		};
+		2EAF6BD71E4C37AA00177B4F /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				2EAF6BD81E4C37AA00177B4F /* CollectionViewCell */,
+				2EAF6BDC1E4C37AA00177B4F /* TableViewCell.h */,
+				2EAF6BDD1E4C37AA00177B4F /* TableViewCell.m */,
+				2EAF6BDE1E4C37AA00177B4F /* TableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		2EAF6BD81E4C37AA00177B4F /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				2EAF6BD91E4C37AA00177B4F /* CollectionViewCell.h */,
+				2EAF6BDA1E4C37AA00177B4F /* CollectionViewCell.m */,
+				2EAF6BDB1E4C37AA00177B4F /* CollectionViewCell.xib */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		2EEA6B471E35D39300C34E41 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				2E974CA21E3205C000DACC82 /* LaunchScreen.storyboard */,
+				2E974C9D1E3205C000DACC82 /* Main.storyboard */,
+			);
+			name = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +208,7 @@
 				TargetAttributes = {
 					2E974C901E3205C000DACC82 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = R2UVMZLES2;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -138,8 +237,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E974CA41E3205C000DACC82 /* LaunchScreen.storyboard in Resources */,
+				2EAF6BE41E4C37AA00177B4F /* TableViewCell.xib in Resources */,
+				2EAF6BCC1E4C36EF00177B4F /* DetailViewController.xib in Resources */,
 				2E974CA11E3205C000DACC82 /* Assets.xcassets in Resources */,
 				2E974C9F1E3205C000DACC82 /* Main.storyboard in Resources */,
+				2EAF6BE21E4C37AA00177B4F /* CollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,9 +252,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E974C9C1E3205C000DACC82 /* ViewController.m in Sources */,
+				2EAF6BE31E4C37AA00177B4F /* TableViewCell.m in Sources */,
+				2EAF6BE11E4C37AA00177B4F /* CollectionViewCell.m in Sources */,
+				2EAF6BCB1E4C36EF00177B4F /* DetailViewController.m in Sources */,
 				2E974C991E3205C000DACC82 /* AppDelegate.m in Sources */,
 				2E974C961E3205C000DACC82 /* main.m in Sources */,
+				2EAF6BD51E4C379900177B4F /* BrowseAnimation.m in Sources */,
+				2EAF6BD41E4C379900177B4F /* UIView+Shiu.m in Sources */,
+				2EAF6BE51E4C37AA00177B4F /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +377,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R2UVMZLES2;
 				INFOPLIST_FILE = ShiuAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ufiSpace.ShiuAnimation;
@@ -281,6 +389,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R2UVMZLES2;
 				INFOPLIST_FILE = ShiuAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ufiSpace.ShiuAnimation;
@@ -307,6 +416,7 @@
 				2E974CAA1E3205C000DACC82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="236"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="300" height="236"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="c5f-Gh-JH2">
+                        <rect key="frame" x="0.0" y="0.0" width="280" height="180"/>
+                        <color key="backgroundColor" red="1" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="180" id="oXI-a8-ukZ"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="小可愛" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Psh-Vy-7oF">
+                        <rect key="frame" x="4" y="184" width="276" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="Mpc-Y9-fgV"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="c5f-Gh-JH2" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="57X-Yh-Ufd"/>
+                <constraint firstAttribute="bottom" secondItem="Psh-Vy-7oF" secondAttribute="bottom" constant="17" id="HOA-Oz-CYH"/>
+                <constraint firstItem="Psh-Vy-7oF" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="4" id="IKh-PJ-7Ns"/>
+                <constraint firstAttribute="trailing" secondItem="Psh-Vy-7oF" secondAttribute="trailing" constant="20" id="S6T-h6-Ioc"/>
+                <constraint firstItem="Psh-Vy-7oF" firstAttribute="top" secondItem="c5f-Gh-JH2" secondAttribute="bottom" constant="4" id="gdZ-Jt-3lR"/>
+                <constraint firstAttribute="trailing" secondItem="c5f-Gh-JH2" secondAttribute="trailing" constant="20" id="ntp-lC-qtV"/>
+                <constraint firstItem="c5f-Gh-JH2" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="tfX-3K-4Ph"/>
+            </constraints>
+            <connections>
+                <outlet property="petImageView" destination="c5f-Gh-JH2" id="hXm-O3-jVP"/>
+                <outlet property="petName" destination="Psh-Vy-7oF" id="dEW-qF-xDe"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="54"/>
+        </collectionViewCell>
+    </objects>
+</document>
